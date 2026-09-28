@@ -1,4 +1,4 @@
-#What is PufferLang?
+# What is PufferLang?
 **PufferLang** is a *Turing-Complete* programming *language* using **Python** code as *interpreter*.
 It is like Python, but like a translation of it.
 Every program in PufferLang is actually a *Python* program.
