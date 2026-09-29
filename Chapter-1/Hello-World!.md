@@ -13,14 +13,14 @@ Because the lexer and parser and codegen is collaborating to translate the Puffe
 - Parser: read the tokens from the lexer and check the syntax and assemble it to a dictionary.
 - CodeGen: read the AST dictionary from the parser and make it translated to Python.
 ## What is the actual process?
-PufferLang source:
-    :sys.out("Hello, world!")
-Lexer: received the source, output:
-    [('COLON', ':'), ('ID', 'sys'), ('DOT', '.'),
-     ('ID', 'out'), ('LP', '('), ('STR', 'Hello, world!'), ('RP', ')')]
-Parser: received the tokens, output:
-    {'type': 'print', 'target': {'kind': 'lit', 'value': 'Hello, world!'}}
-CodeGen: received the AST, output:
-    print('Hello, world!')
-Python interpreter: received the code, output:
-    Hello, world!
+- PufferLang source:
+    `:sys.out("Hello, world!")`
+- Lexer: received the source, output:
+    `[('COLON', ':'), ('ID', 'sys'), ('DOT', '.'),
+     ('ID', 'out'), ('LP', '('), ('STR', 'Hello, world!'), ('RP', ')')]`
+- Parser: received the tokens, output:
+    `{'type': 'print', 'target': {'kind': 'lit', 'value': 'Hello, world!'}}`
+- CodeGen: received the AST, output:
+    `print('Hello, world!')`
+- Python interpreter: received the code, output:
+    `Hello, world!`
