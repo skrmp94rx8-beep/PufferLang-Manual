@@ -28,5 +28,5 @@ Because the lexer, parser, codegen collaborate to translate the PufferLang code 
     `{'type': 'print', 'target': {'kind': 'lit', 'value': 'Hello, world!'}}`
 - CodeGen: received the AST, output:
     `print('Hello, world!')`
-- Run() function: received the code, exec(code), output:
+- PufferLang.run() function: received the code, exec(code), output:
     `Hello, world!`
