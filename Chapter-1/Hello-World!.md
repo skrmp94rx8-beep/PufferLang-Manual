@@ -16,7 +16,7 @@ And then we have the output:
 ## Why?
 Because the lexer, parser, codegen collaborate to translate the PufferLang code to a Python code.
 - Lexer: Translates these :sys.out,(),"Hello, world!" into tokens.
-- Parser: Reads the tokens from the lexer and checks the syntax and assembles it to a dictionary.
+- Parser: Reads the tokens from the lexer and checks the syntax, and assembles them into a dictionary.
 - CodeGen: Reads the AST dictionary from the parser and translates it into Python code.
 ## What is the actual process?
 - PufferLang source:
