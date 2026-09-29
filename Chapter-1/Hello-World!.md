@@ -1,7 +1,7 @@
 # Hello, world!
 ## How to make a hello world program?
-In the last lesson, we knew that `:sys.out` is the function to print something.
-So we can give parameter to it like this:
+In the last lesson, we learned that `:sys.out` is the function to print something.
+So we can give a parameter to it like this:
 `:sys.out("hi")`
 Now change the parameter to hello world:
 `:sys.out("Hello, world!")`
