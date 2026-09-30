@@ -13,11 +13,13 @@ And then we have the output:
 `out`: The method of sys called "out" that prints thing.
 `()`: No need to explain.
 `"Hello, world!"`: Everyone should know it.
-## Why?
+## Why it can run?
 Because the lexer, parser, codegen collaborate to translate the PufferLang code to a Python code.
 - Lexer: Translates these :sys.out,(),"Hello, world!" into tokens.
 - Parser: Reads the tokens from the lexer and checks the syntax, and assembles them into a dictionary.
 - CodeGen: Reads the AST dictionary from the parser and translates it into Python code.
+## Why `:sys.out`?
+Because i just made this, no explanation needed.
 ## What is the actual process?
 - PufferLang source:
     `:sys.out("Hello, world!")`
