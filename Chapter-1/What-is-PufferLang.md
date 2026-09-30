@@ -30,10 +30,10 @@ Hello, world!\
 ## Get variable value usage
 **PufferLang**\
 :sys.out(?var)\
-:sys.out(?func())\
+:sys.out(?func())
 **Result**\
 the value of variable var(fail if var not defined)\
-the returned value of function func(fail too if func not defined)\
+the returned value of function func(fail too if func not defined)
 ---
 ## Why it is PufferLang?
 Because I just like pufferfish and I compounded pufferfish and lang together.
