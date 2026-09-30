@@ -25,12 +25,12 @@ The interpreter translates it into **Python**.
 **PufferLang**\
 `:sys.out("Hello, world!")`\
 **Result**\
-Hello, world!\
+Hello, world!
 ---
 ## Get variable value usage
 **PufferLang**\
 :sys.out(?var)\
-:sys.out(?func())
+:sys.out(?func())\
 **Result**\
 the value of variable var(fail if var not defined)\
 the returned value of function func(fail too if func not defined)
