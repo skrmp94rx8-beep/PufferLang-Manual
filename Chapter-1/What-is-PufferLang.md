@@ -4,7 +4,7 @@ It is like Python, but like a translation of it.
 Every program in PufferLang is actually a *Python* program.
 The interpreter translates it into **Python**.
 ---
-## Syntaxes and grammars
+## **BASIC** Syntaxes and grammars
 | Features | Syntax |
 |---|---|
 | Variable with type | `asg var<type> => val` |
@@ -18,6 +18,7 @@ The interpreter translates it into **Python**.
 | While what do something | `+R (condition) +> [ code ]` |
 | Create function | `+& name(params) [ logics ]` |
 | Import PDL library | `+M libname` |
+| Make node(just class) | `+N nodename` |
 | Insert raw Python | `NTCP(pythoncode)` |
 ---
 ## Hello, world!
