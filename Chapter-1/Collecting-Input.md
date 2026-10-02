@@ -22,5 +22,5 @@ User types:    puffer
 Stored in:     name = "puffer"
 ---
 ## Footnotes
-[^1]: Caution:the hine feature is not implemented yet, if need hint, please use NTCP.
+[^1]: Caution:the hint feature is not implemented yet, if need hint, please use NTCP.
 [^2]: Caution:the `:sys.in` always return a string, but type parsing is not implemented yet, if type parsing needed, please use NTCP.
